@@ -1,8 +1,8 @@
 #if (defined(_MSVC_LANG) && _MSVC_LANG < 201700) || (!defined(_MSVC_LANG) && (__cplusplus < 201700 || (defined(__GNUC__) && __GNUC__ < 12)))
 namespace std
 {
-	consexpr unsigned hardware_constructive_interference_size = 64u;
-	consexpr unsigned hardware_destructive_interference_size = 64u;
+	constexpr unsigned hardware_constructive_interference_size = 64u;
+	constexpr unsigned hardware_destructive_interference_size = 64u;
 }
 #endif
 
